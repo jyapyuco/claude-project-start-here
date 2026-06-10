@@ -20,7 +20,7 @@
 
 Universal rules (always apply):
 - Match the style of surrounding code; don't introduce a second way to do something that already has one.
-- No drive-by refactors — change only what the task requires; note other issues in `.claude/memory/gotchas.md` instead.
+- No drive-by refactors — change only what the task requires; note other issues in `memory/gotchas.md` instead.
 - Keep files small and focused; a file doing too much is a signal to split it.
 - Comments explain constraints the code can't show, never what the next line does.
 - Never commit secrets. `.env*` files are off-limits to read and to commit.
@@ -53,11 +53,11 @@ Delegate to keep this context clean — subagents return summaries, not dumps. D
 
 # Memory
 
-@.claude/memory/MEMORY.md
+@memory/MEMORY.md
 
 Protocol:
 - Learned a durable fact mid-session (decision, gotcha, preference)? Run `/remember` now — don't wait.
 - Dreaming runs automatically at session end and distills the transcript into memory. Run `/dream` manually after important sessions you want consolidated immediately.
-- Resuming work? `.claude/memory/journal.md` has one digest line per past session.
+- Resuming work? `memory/journal.md` has one digest line per past session.
 - `MEMORY.md` is an index — keep it short; details live in the topic files next to it.
-- Generalizable lessons (useful in *any* project) belong in `~/.claude/memory/global-lessons.md`, not here.
+- Generalizable lessons (useful in *any* project) belong in `~/claude-memory/global-lessons.md`, not here.

@@ -20,7 +20,7 @@ Scan the session for durable material:
 
 Save it only if a future session would act differently for knowing it. Skip: anything derivable from the code or git history, session-local details, raw narration of what happened, anything already recorded. **Never store secrets, tokens, or credentials.** If nothing clears the bar, write only the journal line and stop.
 
-## 3. Write — project tier (`.claude/memory/`)
+## 3. Write — project tier (`memory/`)
 
 For each item, check the target file for an existing entry first — update it rather than duplicating; delete entries proven wrong.
 - Decisions → `decisions.md` (`## YYYY-MM-DD — <decision>`, with **Why:**)
@@ -30,13 +30,13 @@ For each item, check the target file for an existing entry first — update it r
 
 Use absolute dates, never "today" or "last week".
 
-## 4. Write — global tier (`~/.claude/memory/global-lessons.md`)
+## 4. Write — global tier (`~/claude-memory/global-lessons.md`)
 
 Promote only lessons that pass the test: *would this change behavior in a project with a completely different codebase?* (Tool behaviors, workflow insights, cross-cutting technique.) Same dedupe rule: update existing entries rather than appending near-duplicates. Project-specific facts never go here.
 
 ## 5. Journal
 
-Append one line to `.claude/memory/journal.md`:
+Append one line to `memory/journal.md`:
 `- YYYY-MM-DD HH:mm — <what was worked on; state left in; next step if known>`
 
 ## 6. Report

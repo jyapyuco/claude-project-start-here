@@ -46,7 +46,7 @@ Follow the project's dream skill (.claude/skills/dream/SKILL.md) to distill dura
 "@
 
     $env:CLAUDE_DREAMING = '1'
-    $userMemory = Join-Path $env:USERPROFILE '.claude\memory'
+    $userMemory = Join-Path $env:USERPROFILE 'claude-memory'
     Write-Log "dreaming: reason=$reason, transcript=$lineCount lines"
 
     $output = & claude -p $prompt `

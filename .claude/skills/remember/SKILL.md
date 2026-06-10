@@ -15,10 +15,10 @@ Refuse politely if it's something the repo already records (code structure, git 
 
 | Kind | Target |
 |---|---|
-| Choice made with rationale | `.claude/memory/decisions.md` |
-| Trap/quirk specific to this project | `.claude/memory/gotchas.md` |
-| How the user wants work done here | `.claude/memory/conventions.md` |
-| Would help in *any* project | `~/.claude/memory/global-lessons.md` |
+| Choice made with rationale | `memory/decisions.md` |
+| Trap/quirk specific to this project | `memory/gotchas.md` |
+| How the user wants work done here | `memory/conventions.md` |
+| Would help in *any* project | `~/claude-memory/global-lessons.md` |
 
 ## 3. Dedupe, then write
 
@@ -26,7 +26,7 @@ Read the target file. If an entry already covers this, update it in place. Other
 
 ## 4. Index
 
-If the fact is load-bearing (would change how a session starts working), add a one-liner to `.claude/memory/MEMORY.md` under Highlights.
+If the fact is load-bearing (would change how a session starts working), add a one-liner to `memory/MEMORY.md` under Highlights.
 
 ## 5. Confirm
 

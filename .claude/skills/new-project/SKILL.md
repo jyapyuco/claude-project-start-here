@@ -35,7 +35,7 @@ Keep CLAUDE.md lean. Don't add sections; don't pad.
 ## 5. Reset memory
 
 The template's memory files ship clean, but if this folder was copied from a *used* project, reset:
-- `.claude/memory/MEMORY.md` Highlights → `*(none yet)*` (keep the structure).
+- `memory/MEMORY.md` Highlights → `*(none yet)*` (keep the structure).
 - `decisions.md`, `gotchas.md`, `conventions.md` → header + `*(none yet)*`.
 - `journal.md` → header only.
 

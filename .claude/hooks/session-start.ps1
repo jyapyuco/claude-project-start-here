@@ -10,7 +10,7 @@ try {
 
     $sections = @()
 
-    $journal = Join-Path $projDir '.claude\memory\journal.md'
+    $journal = Join-Path $projDir 'memory\journal.md'
     if (Test-Path $journal) {
         $recent = @(Get-Content $journal | Where-Object { $_ -match '^- \d{4}-\d{2}-\d{2}' } | Select-Object -Last 3)
         if ($recent.Count -gt 0) {

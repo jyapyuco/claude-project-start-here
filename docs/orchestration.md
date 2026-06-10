@@ -47,5 +47,5 @@ Subagents return **conclusions, not raw material**. Never paste a subagent's fil
 |---|---|---|
 | Design specs | `docs/specs/` | brainstorming sessions |
 | Implementation plans | `docs/plans/` | planner agent / writing-plans skill |
-| Project memory | `.claude/memory/` | /remember, /dream, dreaming hook |
-| Cross-project lessons | `~/.claude/memory/global-lessons.md` | /dream (promotion) |
+| Project memory | `memory/` | /remember, /dream, dreaming hook |
+| Cross-project lessons | `~/claude-memory/global-lessons.md` | /dream (promotion) |
