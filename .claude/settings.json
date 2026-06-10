@@ -16,7 +16,9 @@
       "PowerShell(git log:*)",
       "PowerShell(git diff:*)",
       "PowerShell(git show:*)",
-      "PowerShell(git branch:*)"
+      "PowerShell(git branch:*)",
+      "Edit(./memory/**)",
+      "Write(./memory/**)"
     ],
     "deny": [
       "Read(./.env)",
