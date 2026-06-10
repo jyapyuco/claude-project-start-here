@@ -1,0 +1,8 @@
+# Claude Code local-only files
+.claude/settings.local.json
+.claude/hooks/*.log
+
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
