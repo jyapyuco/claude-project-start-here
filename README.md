@@ -6,8 +6,9 @@ A copyable starting point for projects built with Claude Code. It bundles a lean
 
 1. **Copy** this folder and rename it to your project name.
 2. Open a terminal in the copy and run `claude`.
-3. Run **`/new-project`** — it interviews you (or explores existing code), fills in the stack-specific sections of `CLAUDE.md`, resets the memory files, verifies the hooks, and makes the initial commit.
-4. Build things.
+3. *(Optional but recommended)* Install the **superpowers** plugin so the skills `CLAUDE.md` relies on (brainstorming, TDD, systematic debugging, planning) resolve. Inside Claude Code, run `/plugin marketplace add obra/superpowers-marketplace`, then `/plugin install superpowers@superpowers-marketplace`.
+4. Run **`/new-project`** — it interviews you (or explores existing code), fills in the stack-specific sections of `CLAUDE.md`, resets the memory files, verifies the hooks, and makes the initial commit.
+5. Build things.
 
 > One-time setup (already done on this machine): `~/claude-memory/global-lessons.md` exists and `~/.claude/CLAUDE.md` imports it. On a new machine, recreate both — see "Two-tier memory" below.
 
