@@ -22,7 +22,14 @@ docs/specs/, docs/plans/  Where designs and implementation plans accumulate
 .claude/agents/           10 subagents: explorer, planner, implementer, reviewer,
                           test-runner, security-auditor, docs-writer, web-researcher,
                           refactorer, dependency-auditor
-.claude/skills/           /new-project (bootstrap), /dream (reflect), /remember (save a fact)
+.claude/skills/           /new-project (bootstrap), /dream (reflect), /remember (save a fact),
+                          /ui-pass (numbered UI feedback rounds), /live-smoke (prove flows
+                          against the real stack), /persona-audit (find issues before users),
+                          /ship (gate → narrow stage → deploy-aware push),
+                          /adopt-starthere (retrofit this template onto an existing repo)
+docs/templates/           Reusable prompt templates: UI feedback pass, greenfield app spec,
+                          agent-native audit
+docs/claude-playbook.md   One-page routing guide: which skill/template for which situation
 .claude/hooks/            PowerShell scripts wired into the session lifecycle
 memory/                   Project memory: index, decisions, gotchas, conventions, journal
 ```
